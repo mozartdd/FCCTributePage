@@ -1,42 +1,75 @@
-
-#one {
-    list-style: "Birth and Early Talent (1756)";
-    margin-left: 150px;
+* {
+    text-align: center;
 }
 
-#two {
-    list-style: "Birth and Early Talent (1756)";
-    margin-left: 150px;
+html {
+    background-image: url(sand-paper.jpg);
 }
-#three {
-    list-style: "Birth and Early Talent (1756)";
-    margin-left: 150px;
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 0;
 }
-#four {
-    list-style: "Birth and Early Talent (1756)";
-    margin-left: 150px;
+
+.hero p {
+    margin-top: 0;
+    font-size: 2.5rem;
 }
-#five {
-    list-style: "Birth and Early Talent (1756)";
-    margin-left: 150px;
+
+h2 {
+    font-size: 2.5rem;
 }
-#six {
-    list-style: "Birth and Early Talent (1756)";
-    margin-left: 150px;
+
+img {
+    width: 100vw;
+    width: 70vw;
+    border-radius: 25px;
 }
-#seven {
-    list-style: "Birth and Early Talent (1756)";
-    margin-left: 150px;
+
+.tribute-main {
+    max-width: 600px;
+    margin: auto;
 }
-#eight {
-    list-style: "Birth and Early Talent (1756)";
-    margin-left: 150px;
+
+.li-text {
+    font-weight: 100; 
+    text-align: center;
 }
-#nine {
-    list-style: "Birth and Early Talent (1756)";
-    margin-left: 150px;
+
+/* prefix to change the bullet of list items to needed years */
+
+.one {
+    list-style: "(yr. 1756)";
 }
-#ten {
-    list-style: "Birth and Early Talent (1756)";
-    margin-left: 150px;
+
+.two {
+    list-style: "(yr. 1762)";
+}
+.three {
+    list-style: "(yr. 1764)";
+}
+.four {
+    list-style: "(yr. 1773)";
+}
+.five {
+    list-style: "(yr. 1775)";
+}
+.six {
+    list-style: "(yr. 1781)";
+}
+.seven {
+    list-style: "(yr. 1782)";
+}
+.eight {
+    list-style: "(yr. 1786)";
+}
+.nine {
+    list-style: "(yr. 1791)";
+}
+.ten {
+    list-style: "(yr. 1791)";
+}
+
+.list {
+    font-weight: bold;
 }
