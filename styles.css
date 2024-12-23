@@ -4,16 +4,20 @@
 
 html {
     background-image: url(sand-paper.jpg);
+    font-family: "Playfair Display", Georgia, serif;
+    font-style: italic;
 }
 
 h1 {
     font-size: 3em;
-    margin-bottom: 0;
+    margin-bottom: -15px;
+    margin-top: 0;
 }
 
 .hero p {
     margin-top: 0;
-    font-size: 2.5rem;
+    font-size: 2.7rem;
+    margin-bottom: 0;
 }
 
 h2 {
@@ -21,19 +25,75 @@ h2 {
 }
 
 img {
-    width: 100vw;
-    width: 70vw;
+    max-width: 100%;
+    width: 76vw;
     border-radius: 25px;
-}
-
-.tribute-main {
-    max-width: 600px;
+    box-shadow: 0 0 15px 10px 	#a1773ec5;
+    display: block;
     margin: auto;
 }
 
-.li-text {
-    font-weight: 100; 
-    text-align: center;
+figcaption {
+    position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.legacy {
+    max-width: 1150px;
+    margin: auto;
+}
+
+.legacy p {
+    font-size: 2em;
+    font-weight: 600;
+    margin-top: 0;
+    border-bottom: 3px solid black;
+    padding: 0 0 30px 0;
+    color: black;
+}
+
+.quote {
+    max-width: 1150px;
+    margin: auto;
+}
+
+.quote p {
+    font-size: 2em;
+    margin: 0;
+}
+
+.quote :last-child {
+    font-weight: 700;
+    border-bottom: 3px solid black;
+    padding: 0 0 30px 0;
+}
+
+.tribute-main {
+    max-width: 1150px;
+    margin: auto;
+}
+
+h2 {
+    font-size: 3em;
+    margin-bottom: 0;
+}
+
+.li-text { 
+    font-size: 0.5em;
+}
+
+li {
+    font-size: 3rem;
+    border-bottom: 1px solid black;
+    line-height: 0.7;
+    padding-bottom: 10px;
 }
 
 /* prefix to change the bullet of list items to needed years */
@@ -72,4 +132,18 @@ img {
 
 .list {
     font-weight: bold;
+}
+
+.additional p {
+    font-size: 2em;
+}
+
+a {
+    text-decoration: none;
+    color: brown;
+}
+
+a:hover {
+    cursor: pointer;
+    color: black;
 }
